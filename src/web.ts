@@ -1,6 +1,6 @@
 import { WebPlugin } from '@capacitor/core';
 
-import { CapacitorMusicControlsInfo, CapacitorMusicControlsPlugin } from ".";
+import { CapacitorMusicControlsInfo, CapacitorMusicControlsPlugin } from "./index.js";
 
 export class CapacitorMusicControlsWeb extends WebPlugin implements CapacitorMusicControlsPlugin {
     constructor() {
